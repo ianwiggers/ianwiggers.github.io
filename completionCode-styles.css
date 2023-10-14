@@ -1,0 +1,77 @@
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0.75%;
+}
+#img-logo {
+    width: 50%;
+    height: auto;
+}
+#dp {
+    display: inline-block;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: black;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+.survey {
+    display: inline-block;
+    font-family: "Century Gothic", Arial, sans-serif;
+    color: black;
+    letter-spacing: 0rem;
+    text-align: center;
+
+}
+.text {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    text-align: center;
+
+}
+#completion-code-container {
+    display: none;
+    width: 40%;
+    height: auto;
+    border: solid rgba(0,0,0,.75) 2.5px;
+    border-radius: 1%;
+    padding: 0;
+    margin: 2.5%;
+    text-align: center;
+}
+#completion-code {
+    display: inline-block;
+    font-size: 3rem;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding: 0;
+}
+#get-code-button {
+    display: block;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 2em;
+    background-color: rgba(0,0,255,1);
+    width: 25%;
+    height: auto;
+    color: white;
+    border: none;
+    padding: 1%;
+    text-align: center;
+}
+#get-code-button:hover {
+    background-color: rgba(0,0,255,0.75);
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
