@@ -31,16 +31,18 @@
             color: green;
          }
          @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Quantico:wght@700&display=swap');
-/* #logo {
+#logo {
+    /*
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: center;
-    width: 100%;
+    align-items: center; */
+    position: relative;
+    width: 100%; 
     height: auto;
     margin: auto;
     padding: 0; 
-} */
+} 
 #img-logo {
     width: 50%;
     height: auto;
@@ -77,6 +79,7 @@
     border-radius: 1%;
     padding: 0;
     text-align: center;
+    left: 0;
 }
 #completion-code {
     display: inline-block;
@@ -99,7 +102,8 @@
     color: white;
     border: none;
     padding: 1%;
-    text-align: left;
+    text-align: center;
+    left: 0;
 }
 #get-code-button:hover {
     background-color: rgba(0,0,255,0.75);
