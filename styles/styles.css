@@ -1,0 +1,287 @@
+/* [There is true hope, true love, and true peace in Jesus alone.] Copyright (C) RVA Robotics Team | Innovation Department 2023. All rights reserved. */
+#main-nav {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /* Perfect the navline */
+    /* box-shadow: 0px 2px 5px gray; */
+    border-bottom: 0.05em solid gray;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: white;
+}
+.inner-nav {
+    display: relative;
+    padding: 1.6%;
+    height: 100%;
+    width: 100%;
+}
+#logo {
+    position: absolute;
+    width: auto;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0.33%;
+    padding-top: 0.5%;
+    vertical-align: middle;
+}
+.button-group {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 25%;
+    height: auto;
+}
+.button-group-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.SBT1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 3.25%;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+#log-in {
+    font-size: 1.15em;
+    background-color: white;
+    border: 0.15em solid grey;
+    color: grey;
+}
+#sign-up {
+    font-size: 1.15em;
+    background-color: blue;
+    border: 0.15em solid blue;
+    color: white;
+}
+#log-in:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+#sign-up:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+#log-in:active {
+    opacity: 1.0;
+    background-color: white;
+    transition: all 0.25s;
+}
+#sign-up:active {
+    opacity: 1.0;
+    background-color: white;
+    color: black;
+    transition: all 0.25s;
+}
+.claim {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    padding-left: 2.5%;
+    border-bottom: 0.05em solid gray;  
+    margin: 0;
+}
+.claim-text {
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    word-wrap: break-word;
+    color: invert;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#changing-instruments {
+   /* display: inline-block; */
+    color: rgba(0,0,255,1.0);
+    border-bottom: 0.1em solid rgba(0,0,255,1.0);
+    padding: 1%;
+}
+
+.how-to-title {
+    display: block;
+    font-size: 4em;
+    font-family: "Biome W04 Regular", Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    /* border-bottom: 0.03em solid gray; */
+    padding: 0;
+
+}
+.overall-how-to-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.how-to-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    padding: 1%;
+    margin: 2%;
+    border: 0.15em solid gray;
+    border-radius: 0.5em;
+}
+.box-text {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    word-wrap: normal;
+    color: invert;
+    text-align: center;
+    
+}
+
+.sign-up-box {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    word-wrap: normal;
+    color: invert;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    border: 0.0525em solid gray;
+    border-radius: 0.5em;
+    margin: 4% 0 4% 0;
+}
+#logo2 {
+    vertical-align: middle;
+    margin: 1%;
+}
+#sign-up2 {
+    font-size: 0.5em;
+    background-color: blue;
+    border: 0.15em solid blue;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-right: 3.25%;
+    border-radius: 0.5em;
+    
+}
+#sign-up2:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+#sign-up2:active {
+    opacity: 1.0;
+    background-color: white;
+    color: black;
+    transition: all 0.25s;
+}
+.overall-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-top: 0.05em solid gray;
+    margin: 3% 0 0 0;
+    width: 100%;
+    height: auto;
+}
+.icon-strip {
+    display: block;
+    width: 100%;
+    height: 5%;
+    padding: 2% 0 2% 0;
+    margin: 0;
+}
+#logo3 {
+    display: block;
+    height: auto;
+    padding: 0 1% 0 1%;
+    float: left;
+}
+#logo4 {
+    display: block;
+    height: auto;
+    padding: 0 1% 0 1%;
+    float: left;
+}
+.logo-and-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.contact-learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    margin: 0 0 0 4%;
+}
+#learn-more {
+    font-size: 1.5em;
+    background-color: blue;
+    border: 0.15em solid blue;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: 0 1% 0 1%;
+    border-radius: 0.5em;
+}
+#learn-more:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+#learn-more:active {
+    opacity: 1.0;
+    background-color: white;
+    color: black;
+    transition: all 0.25s;
+}
+#contact-button {
+    font-size: 1.5em;
+    background-color: white;
+    border: 0.15em solid gray;
+    color: gray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: 0 1% 0 1%;
+    border-radius: 0.5em;    
+}
+#contact-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.25s;
+}
+#contact-button:active {
+    opacity: 1.0;
+    background-color: white;
+    color: gray;
+    transition: all 0.25s;
+}
