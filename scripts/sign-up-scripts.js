@@ -38,7 +38,7 @@ document.getElementById("return-or-prev1").title = "Return";
     return;
 }
 if (document.getElementById("return-or-prev1").innerHTML == '<i class="fa-solid fa-chevron-left fa-large"></i>&nbsp;Return') {
-    window.location.href = "file:///C:/Users/OWNER/OneDrive/Desktop/RVA%20Robotics/MASTERPIECE%20Project/index.html"
+    window.location.href = "index.html"
 } else {
     return;
 }
