@@ -1,0 +1,64 @@
+/* There is true hope, true love, and true peace in Jesus alone. Copyright (C) RVA Robotics Team | Innovation Department & Iames Web Development 2023-2024. All rights reserved. */
+#grand-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#sidebar {
+    width: 25%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 0.05em solid gray;
+}
+#logo {
+    padding: 6%;
+}
+#tabs-group1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    padding: 6%;
+    border: 0.25em solid gray;
+    border-radius: 0.5em;
+    margin: 4%;
+    width: 85%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.tab:hover {
+    color: black;
+    border: 0.25em solid black;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+.tab:active {
+    color: blue;
+    border: 0.25em solid blue;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 0s;
+}
+.instrument-type {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+#avatar {
+    
+}

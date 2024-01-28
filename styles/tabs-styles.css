@@ -1,0 +1,142 @@
+/* There is true hope, true love, and true peace in Jesus alone. Copyright (C) RVA Robotics Team | Innovation Department & Iames Web Development 2023-2024. All rights reserved. */
+/* BEGIN styling for learn-units.html: */
+.total-buys {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.total-buys-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buy {
+    width: calc(100% - 1em);
+    height: 20%;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 0px 2px 5px gray;
+    padding: 1%;
+    margin: 1%;
+    vertical-align: middle;
+}
+.icon {
+    display: inline-block;
+    font-family: "Biome W04 Regular", Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    padding: 0;
+    font-weight: bold;
+    color: gray;
+    /*
+    mask-image: linear-gradient(to top right, rgba(0,0,255,1.0), rgba(0,0,255,0.5));
+    webkit-mask-image: linear-gradient(to top right, rgba(0,0,255,1.0), rgba(0,0,255,0.5))linear-gradient(to top right, rgba(0,0,255,1.0), rgba(0,0,255,0.5));
+    */
+
+}
+.title {
+    display: inline-block;
+    font-size: 2em;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    font-weight: bold;
+    
+}
+.explanation {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    word-break: break-all;
+
+}
+.SABT1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 0;
+    border-radius: 0.5em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: blue;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+.SABT1:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+/* END styling for learn-units.html: */
+/* BEGIN styling for profile.html: */
+#total-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100;
+    height: 25%; /* MAY NOT WORK*/
+    vertical-align: middle;
+    border-bottom: 0.2em solid gray;
+}
+.sub-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#avatar {
+
+}
+#name {
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 1%;
+    color: black;
+}
+#band-name, #instrument-name {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 1%;
+    color: black;
+    border: 0.1em solid black;
+    margin: 0 1% 0 1%;
+}
+#lower-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.statistic {
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    width: 23%;
+    /* height: 100%; */
+    border: 0.2em solid gray;
+    border-radius: 0.2em;
+    background-color: white;
+    
+}
+
+/* END styling for profile.html: */
